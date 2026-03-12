@@ -87,7 +87,6 @@ https://www.kaggle.com/datasets/faizunnabi/autism-screening
 
 1.	Clone the repository
 https://github.com/anamikamou/Autism-Spectrum-Disorder-ASD-Prediction-Using-LR-SVM-ANN
-cd Credit_Card_Fraud_Detection_ML_Project
 2.	Install dependencies
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 3.	Run the notebook
