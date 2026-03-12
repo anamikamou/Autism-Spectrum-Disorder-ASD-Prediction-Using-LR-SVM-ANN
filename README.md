@@ -1,4 +1,4 @@
-### Autism-Spectrum-Disorder-ASD-Prediction-Using-LR-SVM-ANN
+### Autism-Spectrum-Disorder-ASD-EDA+Prediction-Using-LR-SVM-ANN
 
 ***Project Overview***
 
@@ -88,10 +88,12 @@ https://www.kaggle.com/datasets/faizunnabi/autism-screening
 1.	Clone the repository
    
 https://github.com/anamikamou/Autism-Spectrum-Disorder-ASD-Prediction-Using-LR-SVM-ANN
-3.	Install dependencies
+
+2.	Install dependencies
 
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
-4.	Run the notebook
+
+3.	Run the notebook
 
 Open Jupyter Notebook or VS Code:
 
