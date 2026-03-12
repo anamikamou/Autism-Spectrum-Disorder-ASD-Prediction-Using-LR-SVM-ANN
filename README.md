@@ -1,9 +1,11 @@
 ### Autism-Spectrum-Disorder-ASD-Prediction-Using-LR-SVM-ANN
 
 ***Project Overview***
+
 This project applies machine learning techniques to predict Autism Spectrum Disorder (ASD) using screening questionnaire data and demographic attributes. The objective is to explore how different classification algorithms perform in identifying ASD cases and to compare their predictive accuracy.
 
 ***Dataset: Exploratory Data Analysis(EDA)***
+
 The dataset contains screening and demographic information used to identify ASD traits. 
 Column Type	       Examples
 Binary -->	       A1–A10, jundice, austim, used_app_before
@@ -27,6 +29,7 @@ The most important factor in choosing between regression and classification is t
 Why These 3 Make a Good Comparison
 
 ***Data Preprocessing:***
+
 The following preprocessing steps were performed:
 1.	Removed an extreme outlier in the age column (value = 383)
 During preprocessing, unrealistic values were identified in the age attribute (e.g., age = 383). Since such values represent data entry errors and may negatively influence model performance, these outliers were removed to maintain data quality. 
@@ -40,6 +43,7 @@ Train/Test method to split the data set into two sets: a training set and a test
 As the features has dependency for distance calculations and gradient updates, it is important to scale data all the datas into new values to adjust features that are easier to compare. Especially, age value is large, so if the feature is not scaled, the model will be largely biased to the age feature.
 
 ***Machine Learning Models***
+
 The most important factor in choosing between regression and classification is the target variable. The target column is: Class/ASD, Values: YES/NO, this means the model must assign a category, not predict a number. This is a decision problem, not a numerical prediction. Therefore: Predicting YES or NO → Classification problem. So, by definition, this dataset fits classification. Regression models usually work best with continuous numerical variables.
 Three classification algorithms were implemented using the scikit-learn library:
 1.	Logistic Regression
@@ -47,12 +51,14 @@ Three classification algorithms were implemented using the scikit-learn library:
 3.	Artificial Neural Network (ANN)
    
 ***Model Evaluation***
+
 The models were evaluated using standard classification metrics:
 1.	Accuracy
 2.	Confusion Matrix
 3.	Precision, Recall, F1- score, Support
 
 ***Results***
+
 The performance of the models was compared based on accuracy.
 
 Model                               Accuracy
@@ -63,9 +69,11 @@ Artificial Neural Network:	      92%
 Here support vector machine model provides 100% accuracy. Because of strong relationship of questionaries features (A1 to A10) with output feature Class/ASD, this model provides strong accuracy. Moreover, these screening scores records demonstrate behavioral indicators corelates with Autism Spectrum Disorder, which enables the SVM model to achieve perfect accuracy on the testing data. Although the svm model achieved a perfect accuracy, further procedures such as cross-validation or testing on very large dataset would be necessary to confirm the generalization ability of the svm model. Additionally, features which are highly associated with output and influence the output were shown by feature importance function. 
 
 ***Conclusion***
+
 This project demonstrates how machine learning models can be applied to classify Autism Spectrum Disorder using screening questionnaire data. The comparison of Logistic Regression, SVM, and ANN provides insight into how different algorithms perform on the same dataset and highlights the importance of proper preprocessing and evaluation in classification tasks.
 
 ***Technologies Used***
+
 •	Python
 •	Pandas
 •	NumPy
@@ -76,6 +84,7 @@ Dataset link:
 https://www.kaggle.com/datasets/faizunnabi/autism-screening
 
 ***How to Run the Project***
+
 1.	Clone the repository
 https://github.com/anamikamou/Autism-Spectrum-Disorder-ASD-Prediction-Using-LR-SVM-ANN
 cd Credit_Card_Fraud_Detection_ML_Project
