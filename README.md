@@ -86,11 +86,15 @@ https://www.kaggle.com/datasets/faizunnabi/autism-screening
 ***How to Run the Project***
 
 1.	Clone the repository
+   
 https://github.com/anamikamou/Autism-Spectrum-Disorder-ASD-Prediction-Using-LR-SVM-ANN
-2.	Install dependencies
+3.	Install dependencies
+
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
-3.	Run the notebook
+4.	Run the notebook
+
 Open Jupyter Notebook or VS Code:
+
 jupyter notebook asd_final.ipynb
 
 
